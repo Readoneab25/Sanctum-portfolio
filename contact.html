@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Sanctum</title>
+<meta name="description" content="Get in touch with Sanctum, a front-end and app developer available for freelance and full-time opportunities.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <div class="nav-row">
+    <a href="index.html" class="brand"><span class="dot"></span> sanctum<span class="crumb">/contact</span></a>
+    <button class="menu-toggle" aria-label="Toggle menu">menu</button>
+    <nav class="pages">
+      <a href="index.html">home</a>
+      <a href="projects.html">projects</a>
+      <a href="about.html">about</a>
+      <a href="contact.html" class="active">contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero wrap fade-up" style="cursor: default;" id="hr">
+    <span class="eyebrow">~/contact</span>
+    <h1>Let's talk about what you're building</h1>
+    <p class="lede">Open to freelance projects, junior developer roles, and opportunities to keep building practical software. Reach out directly, or use the form.</p>
+  </section>
+
+  <section class="wrap" style="cursor: default;">
+    <div class="contact-grid">
+      <div class="contact-card">
+        <span class="eyebrow">Direct</span>
+        <p style="margin:0 0 14px; color:var(--slate); font-size:14px;">Fastest way to reach me</p>
+        <p style="margin:0 0 10px;"><a class="big-link" href="mailto:sanctum06016@gmail.com">Gmail :sanctum06016@gmail.com</a></p>
+        <p style="margin:0 0 10px;"><a class="big-link" href="tel:+2349138907913">Whatsapp :+234 913 890 7913</a></p>
+       
+      </div>
+
+      <div class="contact-card">
+        <span class="eyebrow">Send a message</span>
+        <form class="contact-form" onsubmit="return false;">
+          <div>
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button class="btn primary" type="submit" style="justify-self:start; cursor:pointer;">Send message</button>
+          <p style="font-family:var(--mono); font-size:12px; color:var(--slate); margin:4px 0 0;">Note: this form isn't wired to an inbox yet .</p>
+        </form>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site" style="cursor: default;">
+  <div class="wrap">
+    <span>© 2026 Sanctum</span>
+    <span>built with HTML · CSS · JS</span>
+  </div>
+</footer>
+
+<script src="nav.js"></script>
+</body>
+</html>
